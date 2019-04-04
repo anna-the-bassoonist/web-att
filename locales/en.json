@@ -1,0 +1,45 @@
+{
+    "menu": {
+        "home": "home",
+        "aboutMe": "about me",
+        "skills": "skills",
+        "contact": "contact",
+        "language": "language"
+    },
+    "header": {
+        "h1": "Hi, I'm Anna,",
+        "h2": "a Front end developer",
+        "p": "building responsive websites.",
+        "button": "say hello"
+
+    },
+    "about": {
+        "header": "About me",
+        "text": "The connection between art and logic can result in extraordinary and unique perspectives. While education encourages accuracy and precision, an open mind advocates for creativity and brilliance. As a musician, educator and web designer, I accomplish my tasks with such combinations. As a junior front-end developer, my passion for building websites are motivated through my philosophy to always do my best in all projects. Additionally, with my master degrees in both music performance and music education, I work not only artistically, but also thoroughly and proficiently. Whether I play the bassoon, teach, or create a webpage, it is my responsibility as a multifaceted artist and programmer to constantly strive for excellence."
+    },
+    "skills": {
+        "header": "My skills",
+        "text": "I am working with these programming languages and tools:",
+        "subHeader": "Still learning",
+        "html5": "HTML defines the structure of websites, how the document will look like in the browser, add hyperlinks, graphics, multimedia files, and forms to the page.",
+        "css3": "describes the element layout on the page; defines the appearance of the document - layout, colours, fonts, margins, background, etc.",
+        "JavaScript": "an interpreted programming language, to create interactivity on the website by reacting to events (e.g. on mouse clicks).",
+        "jQuery": "a javascript library that simplifies programming, sometimes instead of writing multiple lines in js, we can replace the code with even one jquery line.",
+        "sass": " a scripting language code that is processed into CSS result files, it helps to create and maintain CSS in a much better organized, readable way.",
+        "gulp": "an open-source tool used for work automation, used when working with SASS, HTML, CSS, JavaScript.",
+        "git": "a tool that allows you to save and track changes in the project's code, also an insight into your work history; it facilitates working on a team of several people.",
+        "rwd": "(Responsive Web Design): a website design technique that adapts the layout of the website to the size of the browser window.",
+        "react": "JavaScript library, which is created to build graphical interfaces of web applications used, e.g. in Facebook",
+        "ajax": "a combination of technology that allows you to download data from a server using Java Server and place it on the page, without reloading this page, also without interference in the appearance and functionality of the site.",
+        "wordpress": "one of content management systems (CMS) used to design websites, online stores and blogs, does not require knowledge of coding in HTML, CSS, JavaScript."
+    },
+    "contact": {
+        "main": "Contact me",
+        "angebot": "Need a website or want to work together?",
+        "name": "Name*",
+        "email": "E-Mail*",
+        "textarea": "write a message*",
+        "send": "send"
+    }
+
+}

@@ -1,0 +1,45 @@
+{
+    "menu": {
+        "home": "home",
+        "aboutMe": "o mnie",
+        "skills": "umiejętności",
+        "contact": "kontakt",
+        "language": "języki"
+    },
+    "header": {
+        "h1": "Anna Toeplitz",
+        "h2": "Front end developer",
+        "p": "Tworzę responsywne strony internetowe.",
+        "button": "przywitaj się"
+
+    },
+    "about": {
+        "header": "O mnie",
+        "text": "Uważam, że najciekawsze i najlepsze rzeczy powstają dzięki nietypowym połączeniom. Specjalizacja może dać nam dokładność. Specjalizacja połączona z interdyscyplinarnością – może zapewnić precyzyjność i kreatywność. Sama jestem artystką z matematycznym umysłem. Dodatkowo jeżeli coś robię – staram się robić to najlepiej jak potrafię. Wykształcenie muzyczne i praca w tym zawodzie nauczyło mnie skrupulatności: jestem twórcza, ale też dokładna. Tworzę strony internetowe, gram na fagocie, uczę w szkole – we wszystkich tych aspektach dążę do perfekcji."
+    },
+    "skills": {
+        "header": "Moje umiejętności",
+        "text": "Do tworzenia stron internetowych używam różnych języków programowania i narzędzi:",
+        "subHeader": "Nadal się uczę",
+        "html5": "Poprzez HTML definiuję strukturę stron internetowych; określam, jak dokument będzie wyglądał w przeglądarce, dodaję hiperłącza, pliki graficzne lub multimedialne, formularze.",
+        "css3": "Używając CSS opisuję układ elementów na stronie; definiuję wygląd dokumentu-układ graficzny, kolory, marginesy, tło i inne.",
+        "JavaScript": "Jest to  skryptowy język programowania, dzięki któremu tworzę interaktywność na stronie, np. poprzez reagowanie na zdarzenia(na kliknięcia myszy).",
+        "jQuery": "Biblioteka javyScript, która upraszcza programowanie. Czasem zamiast pisać wielu linii w JavaScript, możemy zastąpić kod nawet jedną linią jQuery.",
+        "sass": "Język skryptowy, którego kod jest przetwarzany do plików wynikowych CSS. Pomaga tworzyć i utrzymywać CSS w sposób dużo lepiej zorganizowany i czytelny.",
+        "gulp": "Narzędzie do automatyzacji pracy – używane przy pracy z SASS, HTML, CSS, JavaScript.",
+        "git": "Narzędzie pozwalające na zapisywanie I śledzenie zmian w kodzie projektu, również wgląd w historię pracy; ułatwia pracę nad projektem kilkuosobowych zespołach.",
+        "rwd": "Od Responsive Web Design- technika projektowania strony internetowej, aby wygląd i jej układ dostosowywał się do rozmiaru okna przeglądarki",
+        "react": "biblioteka JavyScript, wykorzystywana do budowania interfejsow graficznych aplikacji internetowych, używana np. w facebooku",
+        "ajax": "Kombinacja użycia technologii, która pozwala pobrać za pomocą JavyScript z serwera dane i umieścić je na stronie, bez ponownego przeładowania tej strony, również bez ingerencji w wygląd i funkcjonalność strony.",
+        "wordpress": "CMS- system do zarzadzania treścią- stosowany do projektowania stron internetowych, blogów i sklepów internetowych. Nie wymaga znajomości kodowania w HTML, CSS, JS."
+    },
+    "contact": {
+        "main": "Skontaktuj się",
+        "angebot": "Potrzebujesz strony lub chcesz razem pracować?",
+        "name": "Imię*",
+        "email": "Email*",
+        "textarea": "wpisz wiadomość*",
+        "send": "wyślij"
+    }
+
+}

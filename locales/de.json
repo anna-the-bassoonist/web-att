@@ -1,0 +1,44 @@
+{
+    "menu": {
+        "home": "home",
+        "aboutMe": "über mich",
+        "skills": "fähigkeiten",
+        "contact": "kontakt",
+        "language": "sprachen"
+    },
+    "header": {
+        "h1": "Anna Toeplitz",
+        "h2": "Front end developer",
+        "p": "Ich erstelle responsive Webseiten.",
+        "button": "Sag Hallo"
+    },
+    "about": {
+        "header": "Über mich",
+        "text": " Die interessantesten  Zusammenhänge entstehen dank untypischen Verbindungen. Unterschiedliche Ausbildungen können uns viel an Genauigkeit und Präzision geben. Die Spezialisierung zusammen mit vielen Verknüpfungen erschafft Kreativität. Ich selbst bin eine Künstlerin/ Webdesignerin mit einem mathematisch ausgeprägten Geist. Dabei bemühe ich mich in jedem Bereich mein Bestes zu geben und es mit meinem Sinn für Perfektion zu schmücken. Meine Ausbildung zur Musikerin hat mich zur Genauigkeit beigebracht: ich bin kreativ aber auch präzise. So erschaffe ich Webseiten, spiele Fagott und unterrichte dieses Instrument in einer Schule – auf all diesen Gebieten strebe ich nach Perfektion."
+    },
+    "skills": {
+        "header": "Meine Kenntnisse",
+        "text": "Beim Erstellen von Webseiten verwende ich unterschiedliche Programmsprachen und Werkzeuge:",
+        "subHeader": "Stets in Fortbildung",
+        "html5": "Durch HTML beschreibe ich und definiere die Inhalte und Struktur der Websiten, dazu noch Grundlagen von Layout; ich füge Hyperlinks, Multimedia, Formulare ein.",
+        "css3": "Durch CSS mache ich eine visuelle Darstellung der Website, definiere Layout, Farben, Typografie und mache einfache Animationen.",
+        "JavaScript": "Es ist eine Programmiersprache mit welcher ich die Webseite mit interaktiven Elementen anreichere, sie reagiert auf Events (z.B. bei Mausklicks), und mit ihr lassen sich Veränderungen, Animationen und Effekte gestalten.",
+        "jQuery": "Eine JavaScript-Bibliothek, welche das Programmieren vereinfacht. Anstatt viele Zeilen von Code in JS zu schreiben, brauchen wir manchmal nur eine Zeile in jQuery.",
+        "sass": "Eine Skriptsprache, deren Code in Ergebnisdateien verarbeitet wird CSS. Dies hilft, CSS besser zu organisieren, ist leicht zu erstellen und der Code ist besser lesbar.",
+        "gulp": "Eine Software zur Arbeitsautomatisierung - wird bei der Arbeit mit z.B. SASS, HTML, JavaScript,CSS verwendet.",
+        "git": "Ich arbeite mit dem Versionskontrollsystem ''git'', um Änderungen im Code des Projekts nachverfolgen können, und die Kooperation mit anderen Entwicklern zu vereinfachen.",
+        "rwd": "Responsive Web Design - ist eine Website-Design-Technik, bei der das Aussehen und Layout der Website an die Größe des Browserfensters angepasst werden.",
+        "react": "Eine JavaScript - Bibliothek, die zum Erstellen grafischer Oberflächen von Webanwendungen erstellt wird, z.B. in Facebook verwendet.",
+        "ajax": "Ajax nutze für die Entwicklung asynchroner Webprojekte. Mit Ajax können Daten asynchron im Hintergrund geladen und auf die Webseite gebracht werden, ohne das Erscheinungsbild oder die Funktionalität der Webseite zu stören.",
+        "wordpress": "CMS - Content Management System – dient zur Gestaltung von Websites, Online-Shops, Mediengalerien, Blogs und erfordert keine Kenntnisse der Codierung in HTML, CSS, JavaScript."
+    },
+    "contact": {
+        "main": "Kontaktiere mich",
+        "angebot": "Brauchen Sie eine Webseite oder möchten Sie zusammen arbeiten?",
+        "name": "Name*",
+        "email": "E-Mail*",
+        "textarea": "Nachricht*",
+        "send": "Senden"
+    }
+
+}

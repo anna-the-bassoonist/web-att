@@ -1,0 +1,918 @@
+    /* open-sans-regular - latin */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/openSans/open-sans-v15-latin-regular.eot');
+        /* IE9 Compat Modes */
+        src: local('Open Sans Regular'), local('OpenSans-Regular'),
+            url('../fonts/openSans/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+            /* IE6-IE8 */
+            url('../fonts/openSans/open-sans-v15-latin-regular.woff2') format('woff2'),
+            /* Super Modern Browsers */
+            url('../fonts/openSans/open-sans-v15-latin-regular.woff') format('woff'),
+            /* Modern Browsers */
+            url('../fonts/openSans/open-sans-v15-latin-regular.ttf') format('truetype'),
+            /* Safari, Android, iOS */
+            url('../fonts/openSans/open-sans-v15-latin-regular.svg#OpenSans') format('svg');
+        /* Legacy iOS */
+    }
+
+    /* open-sans-italic - latin */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        src: url('../fonts/openSans/open-sans-v15-latin-italic.eot');
+        /* IE9 Compat Modes */
+        src: local('Open Sans Italic'), local('OpenSans-Italic'),
+            url('../fonts/openSans/open-sans-v15-latin-italic.eot?#iefix') format('embedded-opentype'),
+            /* IE6-IE8 */
+            url('../fonts/openSans/open-sans-v15-latin-italic.woff2') format('woff2'),
+            /* Super Modern Browsers */
+            url('../fonts/openSans/open-sans-v15-latin-italic.woff') format('woff'),
+            /* Modern Browsers */
+            url('../fonts/openSans/open-sans-v15-latin-italic.ttf') format('truetype'),
+            /* Safari, Android, iOS */
+            url('../fonts/openSans/open-sans-v15-latin-italic.svg#OpenSans') format('svg');
+        /* Legacy iOS */
+    }
+
+    /* josefin-sans-300italic - latin */
+    @font-face {
+        font-family: 'Josefin Sans';
+        font-style: italic;
+        font-weight: 300;
+        src: url('../fonts/josefinSans/josefin-sans-v12-latin-300italic.eot');
+        /* IE9 Compat Modes */
+        src: local('Josefin Sans Light Italic'), local('JosefinSans-LightItalic'),
+            url('../fonts/josefinSans/josefin-sans-v12-latin-300italic.eot?#iefix') format('embedded-opentype'),
+            /* IE6-IE8 */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-300italic.woff2') format('woff2'),
+            /* Super Modern Browsers */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-300italic.woff') format('woff'),
+            /* Modern Browsers */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-300italic.ttf') format('truetype'),
+            /* Safari, Android, iOS */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-300italic.svg#JosefinSans') format('svg');
+        /* Legacy iOS */
+    }
+
+    /* josefin-sans-regular - latin */
+    @font-face {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/josefinSans/josefin-sans-v12-latin-regular.eot');
+        /* IE9 Compat Modes */
+        src: local('Josefin Sans Regular'), local('JosefinSans-Regular'),
+            url('../fonts/josefinSans/josefin-sans-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
+            /* IE6-IE8 */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-regular.woff2') format('woff2'),
+            /* Super Modern Browsers */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-regular.woff') format('woff'),
+            /* Modern Browsers */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-regular.ttf') format('truetype'),
+            /* Safari, Android, iOS */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-regular.svg#JosefinSans') format('svg');
+        /* Legacy iOS */
+    }
+
+    /* josefin-sans-700 - latin */
+    @font-face {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: url('../fonts/josefinSans/josefin-sans-v12-latin-700.eot');
+        /* IE9 Compat Modes */
+        src: local('Josefin Sans Bold'), local('JosefinSans-Bold'),
+            url('../fonts/josefinSans/josefin-sans-v12-latin-700.eot?#iefix') format('embedded-opentype'),
+            /* IE6-IE8 */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-700.woff2') format('woff2'),
+            /* Super Modern Browsers */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-700.woff') format('woff'),
+            /* Modern Browsers */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-700.ttf') format('truetype'),
+            /* Safari, Android, iOS */
+            url('../fonts/josefinSans/josefin-sans-v12-latin-700.svg#JosefinSans') format('svg');
+        /* Legacy iOS */
+    }
+
+    /*helpers*/
+
+    :root {
+        --nav-bg-color: rgba(44, 73, 156, 0.98);
+        --nav-ah-color: rgb(89, 106, 156);
+        --main-color: #e2e2e2;
+        --main-blue-color: rgb(44, 73, 156);
+        --h-border-color: rgba(226, 226, 226, 0.7);
+        --contact-b-color: #1d3f5d;
+        --footer-color: rgb(44, 106, 156);
+        --white: rgb(255, 255, 255);
+    }
+
+    .mb-15 {
+        margin-bottom: 15px;
+    }
+
+    .mt-10 {
+        margin-top: 10px;
+    }
+
+    .opacity-0 {
+        opacity: 0;
+    }
+
+    .m-btn {
+        border: 1px solid var(--white);
+        display: inline-block;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        color: var(--white);
+        background-color: var(--main-blue-color);
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all 0.3s linear;
+        margin-top: 30px;
+    }
+
+    .m-btn:hover {
+        color: var(--main-blue-color);
+        background-color: var(--white);
+
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-icons a {
+        color: var(--main-blue-color);
+        background-color: var(--white);
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        border: 1px solid rgba(44, 73, 156);
+        border-radius: 50%;
+        font-weight: bold;
+        margin: 0 15px;
+        transition: all 0.5s ease-out;
+    }
+
+    .social-icons a:hover {
+        color: var(--white);
+        background-color: rgba(44, 73, 156, 0.4);
+        border: 1px solid var(--white);
+        transform: rotate(360deg);
+    }
+
+    /*Font Styles*/
+
+    body {
+        font-family: 'Josefin Sans', Arial, sans-serif;
+        font-size: 1rem;
+        color: #3c3b3b;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+
+    /*Navigation Start*/
+
+    nav#main-nav {
+        padding: 0;
+        background-color: transparent;
+        z-index: 100000;
+    }
+
+    nav#main-nav.changeColor {
+        background-color: var(--nav-bg-color);
+    }
+
+    nav#main-nav div li a {
+        color: var(--white);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: transparent;
+        padding: 10px 22px;
+        transition: color 0.2s ease-in;
+    }
+
+    nav#main-nav div ul li:hover,
+    nav#main-nav div ul li a.activeMenu {
+        background-color: var(--nav-ah-color);
+    }
+
+    nav#main-nav div ul li.dropdown-main {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav#main-nav div li ul.dropdown-content {
+        
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        min-width: 160px;
+        box-shadow: -11px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-bottom-left-radius: 0.25em;
+        list-style: none;
+    }
+
+    nav#main-nav div li ul.dropdown-content li.dropdown-li {
+        list-style-position: outside;
+        overflow: hidden;
+        list-style-image: url(data:0);
+
+    }
+
+    nav#main-nav div li ul.dropdown-content a {
+        padding: 8px 12px;
+        text-align: left;
+        background-color: var(--main-blue-color);
+    }
+
+    nav#main-nav div li ul.dropdown-content a:hover {
+        background-color: var(--nav-ah-color);
+    }
+    
+    nav#main-nav div ul li.dropdown-main:hover > ul.dropdown-content,
+    nav#main-nav div ul li ul.dropdown-content:hover,
+    nav#main-nav div ul li ul.dropdown-content:focus {
+        visibility: visible;
+        opacity: 1;
+        display: block !important;
+    }
+
+    /*Navigation End*/
+
+    /*Header Start*/
+
+    header#header {
+        height: 100vh;
+        background-image: url(../img/kazuend-1600_8.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header#header div {
+        color: var(--white);
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header#header div h1,
+    header#header div h2,
+    header#header div p {
+        margin-bottom: 15px;
+    }
+
+    header#header div h1,
+    header#header div h2 {
+        width: auto;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    header#header div h2 {
+        display: inline-block;
+    }
+
+    /*Header animation*/
+
+
+    @media screen and (min-width:801px) {
+        .typingHeader {
+            -webkit-animation: typing 6s steps(40, end),
+                blink-caret 1s step-end;
+            animation: typing 6s steps(40, end),
+                blink-caret 1s step-end;
+            animation-fill-mode: forwards;
+            -webkit-animation-fill-mode: forwards;
+            border-right: .15em solid var(--h-border-color);
+            margin: 0 auto;
+            letter-spacing: .1em;
+        }
+
+        .typingHeader2 {
+            -webkit-animation: typing2 6s steps(40, end),
+                blink-caret 1s step-end infinite;
+            animation: typing2 6s steps(40, end),
+                blink-caret 1s step-end infinite;
+            -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            border-right: .15em solid var(--h-border-color);
+            margin: 0 auto;
+            letter-spacing: .1em;
+            opacity: 0;
+        }
+
+        .fadeIn {
+            -webkit-animation: fadeIn 0.2s;
+            animation: fadeIn 0.2s;
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+            opacity: 0;
+        }
+    }
+
+    @media screen and (min-width: 501px) and (max-width: 800px) {
+        .typingHeader {
+            -webkit-animation: typing 3s steps(40, end),
+                blink-caret 1s step-end;
+            animation: typing 3s steps(40, end),
+                blink-caret 1s step-end;
+            animation-fill-mode: forwards;
+            -webkit-animation-fill-mode: forwards;
+            border-right: .15em solid var(--h-border-color);
+            margin: 0 auto;
+            letter-spacing: .1em;
+        }
+
+        .typingHeader2 {
+            -webkit-animation: typing2 3s steps(40, end),
+                blink-caret 1s step-end infinite;
+            animation: typing2 3s steps(40, end),
+                blink-caret 1s step-end infinite;
+            -webkit-animation-delay: 1.7s;
+            animation-delay: 1.7s;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            border-right: .15em solid var(--h-border-color);
+            margin: 0 auto;
+            letter-spacing: .1em;
+            opacity: 0;
+        }
+
+        .fadeIn {
+            -webkit-animation: fadeIn 0.4s;
+            animation: fadeIn 0.4s;
+            -webkit-animation-delay: 1.4s;
+            animation-delay: 1.4s;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+            opacity: 0;
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        .typingHeader {
+            -webkit-animation: typing 2s steps(40, end),
+                blink-caret 1s step-end;
+            animation: typing 2s steps(40, end),
+                blink-caret 1s step-end;
+            animation-fill-mode: forwards;
+            -webkit-animation-fill-mode: forwards;
+            border-right: .15em solid var(--h-border-color);
+            margin: 0 auto;
+            letter-spacing: .1em;
+        }
+
+        .typingHeader2 {
+            -webkit-animation: typing2 2s steps(40, end),
+                blink-caret 1s step-end infinite;
+            animation: typing2 2s steps(40, end),
+                blink-caret 1s step-end infinite;
+            -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            border-right: .15em solid var(--h-border-color);
+            margin: 0 auto;
+            letter-spacing: .1em;
+            opacity: 0;
+        }
+
+        .fadeIn {
+            -webkit-animation: fadeIn 0.3s;
+            animation: fadeIn 0.3s;
+            -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+            opacity: 0;
+        }
+    }
+
+    @keyframes typing {
+        from {
+            max-width: 0
+        }
+
+        to {
+            max-width: 100%
+        }
+    }
+
+    @keyframes typing2 {
+        1% {
+            opacity: 1;
+        }
+
+        from {
+            max-width: 0
+        }
+
+        to {
+            max-width: 100%;
+            opacity: 1
+        }
+    }
+
+    @keyframes blink-caret {
+
+        from,
+        to {
+            border-color: transparent
+        }
+
+        40% {
+            border-color: var(--h-border-color);
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fadeIn {
+        -webkit-animation: fadeIn 3.2s;
+        animation: fadeIn 3.2s;
+        -webkit-animation-delay: 3.2s;
+        animation-delay: 3.2s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    /*Header End*/
+
+
+    /*Section About me Start*/
+
+    section#about-me {
+        height: 100%;
+        background-image: linear-gradient(rgba(5, 25, 81, 0.82), rgba(31, 50, 102, 0.82)),
+            url('../img/Optimized-b&w.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    section#about-me div.about-content {
+        padding: 20% 3%;
+        position: relative;
+        height: 100%;
+    }
+
+    section#about-me div p,
+    section#about-me div h2 {
+        color: rgb(255, 255, 255);
+    }
+
+    section#about-me div p {
+        line-height: 2.4rem;
+        padding: 10px;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    /*Section About me End*/
+
+
+    /*Section Skills Start*/
+    #skills {
+        background-color: var(--main-color);
+        color: #000000;
+        padding-bottom: 20px;
+    }
+
+    #skills h2 {
+        padding: 60px 0 10px;
+    }
+
+    #skills h3 {
+        margin-top: 30px;
+        padding: 0 0 8px;
+    }
+
+    #skills .line-under {
+        width: 140px;
+        height: 4px;
+        background: var(--main-blue-color);
+        text-align: center;
+        margin: 0 auto 25px;
+    }
+
+    #skills .skills-border {
+        padding-bottom: 40px;
+        border-bottom-style: ridge;
+    }
+
+    #skills .skills-icons figure img,
+    #skills .skills-icons .icons-p {
+        padding-top: 10px;
+    }
+
+    #skills .skills-icons figure i,
+    #skills .skills-icons p {
+        line-height: 6rem;
+        font-size: 4rem;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    #skills div.skills-icons div.hover-icons {
+        transition: all 0.4s ease-in-out;
+        border: 1px solid transparent;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hover-icons figure,
+    .hover-icons icons-p {
+        transition: all 0.4s ease-in-out;
+        transform: none;
+        position: relative;
+    }
+
+    .hover-icons:hover figure,
+    .hover-icons:hover .icons-p {
+        opacity: 0;
+        transform: scale(1.3);
+    }
+
+    #skills .skills-icons .hover-icons:hover,
+    #skills .skills-icons .hover-icons:active,
+    #skills .skills-icons .hover-icons:focus {
+        background: rgba(44, 73, 156, 0.89);
+        border: 1px solid rgb(67, 70, 116);
+        border-radius: 0.30rem;
+    }
+
+    #skills .skills-icons p {
+        height: 100%;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #skills .skills-icons .hover-icons p.icons-info {
+        opacity: 0;
+        font-size: 0.8em;
+        line-height: 1.2em;
+        position: absolute;
+        margin: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 12px;
+        transition: all 0.4s ease-in-out;
+        transform: translateY(50%);
+        color: transparent;
+    }
+
+    #skills .skills-icons .hover-icons:hover p.icons-info,
+    #skills .skills-icons .hover-icons:active p.icons-info,
+    #skills .skills-icons .hover-icons:focus p.icons-info {
+        transform: none;
+        color: var(--main-color);
+        opacity: 1;
+    }
+
+
+    /*Animation Skills Start*/
+
+
+    #html,
+    #css,
+    #js,
+    #jquery,
+    #sass,
+    #gulp,
+    #git,
+    #rwd {
+        animation-delay: 0.2s;
+        animation-duration: 0.6s;
+        animation-fill-mode: both;
+        animation-timing-function: ease-out;
+    }
+
+    #react,
+    #ajax,
+    #wordpress {
+        animation-delay: 0.4s;
+        animation-duration: 0.6s;
+        animation-fill-mode: both;
+        animation-timing-function: ease-out;
+    }
+
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, -60%, 0);
+        }
+
+        40% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    .fadeDown.activate {
+        opacity: 0;
+        animation-name: fadeInDown;
+    }
+
+
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 60%, 0);
+        }
+
+        40% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    .fadeUp.activate {
+        opacity: 0;
+        animation-name: fadeInUp;
+    }
+
+    /*Animation Skills End*/
+
+    /*Section Skills End*/
+
+
+    /*Section Contact Start*/
+    #contact {
+        background-image: url(../img/map-of-the-world-2401458_1920.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #contact .container h3 {
+        padding: 15% 0 0;
+        text-shadow: 2px 4px 7px black, 0 0 1em #336590, 0 0 0.2em #0a150a;
+        color: var(--main-color);
+    }
+
+    #contact #contact-p {
+        background-color: #7b7f9933;
+        display: inline-block;
+        border-radius: 25%;
+    }
+
+    #contact .container p {
+        color: var(--white);
+        margin: 0;
+        text-shadow: 2px 4px 7px #040817, 0 0 1em #032e51, 0 0 0.2em #060000;
+        font-size: 1.3em;
+    }
+
+    #contact .contact-about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        margin: 5% 5% 0;
+        padding-bottom: 12%;
+    }
+
+    #contact .contact-about form {
+        background-color: transparent;
+        padding: 1% 1% 5%;
+        width: 75%;
+    }
+
+    #contact .contact-about form .form-about {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        align-content: stretch;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #contact .contact-about form .form-about input[type='text'],
+    #contact .contact-about form .form-about input[type='email'],
+    #contact .contact-about .form-about textarea[name='message'],
+    #contact .contact-about .form-about button[type='submit'] {
+        text-transform: inherit;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: var(--main-color);
+        border: 1px solid var(--contact-b-color);
+    }
+
+    #contact .contact-about form .form-about label {
+        text-align: left;
+        color: var(--contact-b-color);
+        margin: 15px 0 0;
+        text-shadow: -1px -1px 0 var(--main-color),
+            1px -1px 0 var(--main-color),
+            -1px 1px 0 var(--main-color),
+            1px 1px 0 var(--main-color);
+    }
+
+    #contact .contact-about form .form-about textarea {
+        color: var(--contact-b-color);
+        min-height: 170px;
+        margin-bottom: 5px;
+    }
+
+    #contact .contact-about form .form-about input[type="text"]:focus,
+    #contact .contact-about form .form-about input[type="email"]:focus,
+    #contact .contact-about .form-about textarea[name="message"]:focus {
+        background-color: var(--white);
+    }
+
+    #contact .contact-about form .form-about button[type='submit'] {
+        background-color: var(--contact-b-color);
+        border: 1px solid var(--main-color);
+        color: var(--main-color);
+        align-self: flex-end;
+        word-spacing: normal;
+        letter-spacing: 1.2;
+        transition: all 0.5 ease-in-out;
+        margin: 5px 0 0 0;
+        padding: 10px 30px;
+        line-height: 1.4rem;
+        text-transform: uppercase;
+        width: 33%;
+    }
+
+    #contact .contact-about form .form-about button[type='submit']:hover {
+        background-color: var(--main-color);
+        color: var(--contact-b-color);
+        border: 1px solid var(--contact-b-color);
+    }
+
+    ::placeholder {
+        text-transform: uppercase;
+    }
+
+    /*Section Contact End*/
+
+    /*Section Footer Start*/
+    #footer {
+        background-color: var(--main-color);
+    }
+
+    #footer .icons-footer a {
+        background-color: var(--footer-color);
+        color: var(--white);
+        border: 1px solid var(--main-color);
+    }
+
+    #footer .icons-footer a:hover {
+        color: var(--footer-color);
+        background-color: var(--white);
+        border: 1px solid var(--footer-color);
+    }
+
+    @media (min-width: 1200px) {
+        header#header {
+            background-image: url(../img/kazuend-1920_6.jpg);
+        }
+
+        section#about-me {
+            background-image: linear-gradient(rgba(5, 25, 81, 0.82), rgba(31, 50, 102, 0.82)),
+                url('../img/Optimized-b&w.jpg');
+        }
+
+    }
+
+    @media (min-width:768px) {
+        html {
+            font-size: 16px;
+        }
+
+        nav#main-nav {
+            height: 50px;
+        }
+
+        nav#main-nav div ul.ul-height {
+            max-height: 50px;
+        }
+
+        section#about-me {
+            background-image: linear-gradient(rgba(5, 25, 81, 0.82), rgba(31, 50, 102, 0.82)),
+                url('../img/Optimized-b&w_small.jpg');
+        }
+    }
+
+    @media (max-width: 767px) {
+        html {
+            font-size: 12px;
+        }
+
+        nav#main-nav #menu-button {
+            font-size: 1.8rem;
+        }
+
+        nav#main-nav:hover {
+            background-color: var(--nav-bg-color);
+        }
+
+        nav#main-nav div li a {
+            background-color: var(--nav-bg-color);
+            text-align: center;
+            font-size: 18px;
+        }
+
+        nav#main-nav div li div.dropdown-content {
+            width: 100%;
+        }
+
+        nav#main-nav div li ul.dropdown-content a {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        nav#main-nav div li div.dropdown-content a:hover {
+            background-color: var(--nav-ah-color);
+        }
+
+        header#header {
+            background-image: url(../img/kazuend-1024_6.jpg);
+        }
+
+        header#header div h2#headerh2 {
+            font-size: 1.8rem;
+        }
+
+        section#about-me {
+            background-image: linear-gradient(rgba(5, 25, 81, 0.82), rgba(31, 50, 102, 0.82)),
+                url('../img/Optimized-b&w_small.jpg');
+        }
+
+        #skills .skills-icons .hover-icons p.icons-info {
+            font-size: 10px;
+            line-height: 12px;
+        }
+
+        #contact {
+            background-image: url(../img/map-of-the-world-2401458_1200_small.jpg);
+        }
+
+        #contact .contact-about form .form-about button[type='submit'] {
+            padding: 5px;
+        }
+    }
+
+    @media (max-width:501px) {
+        .social-icons a {
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+        }
+    }
