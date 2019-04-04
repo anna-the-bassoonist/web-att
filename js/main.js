@@ -84,15 +84,15 @@ $(document).ready(function () {
         });
     }
 
-    $(".language-select").click(function () {
-        i18next.changeLanguage($(this).attr('id'), function () {
-            $('.menu-lng').localize();
-            $('.header-lng').localize();
-            $('.aboutme').localize();
-            $('.skills').localize();
-            $('.contact').localize();
-        });
-    });
+    // $(".language-select").click(function () {
+    //     i18next.changeLanguage($(this).attr('id'), function () {
+    //         $('.menu-lng').localize();
+    //         $('.header-lng').localize();
+    //         $('.aboutme').localize();
+    //         $('.skills').localize();
+    //         $('.contact').localize();
+    //     });
+    // });
 
     $(".english").html("english");
     $(".deutsch").html("deutsch");
