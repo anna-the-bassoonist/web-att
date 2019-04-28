@@ -212,7 +212,7 @@
         transition: color 0.2s ease-in;
     }
 
-/*    nav#main-nav div ul li:hover,*/
+    nav#main-nav div ul li.nav-item:hover,
     nav#main-nav div ul li a.activeMenu {
         background-color: var(--nav-ah-color);
     }
@@ -223,7 +223,7 @@
     }
 
     nav#main-nav div li ul.dropdown-content {
-        
+
         display: none;
         visibility: hidden;
         opacity: 0;
@@ -254,7 +254,7 @@
     nav#main-nav div li ul.dropdown-content a:hover {
         background-color: var(--nav-ah-color);
     }
-    
+
     nav#main-nav div ul li.dropdown-main:hover > ul.dropdown-content,
     nav#main-nav div ul li ul.dropdown-content:hover,
     nav#main-nav div ul li ul.dropdown-content:focus {

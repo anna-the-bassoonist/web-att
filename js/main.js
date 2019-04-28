@@ -19,10 +19,7 @@ $(document).ready(function () {
             if ($(this).position().top <= scrollDistance && $(this).position().top + $(this).height() > scrollDistance) {
                 $('#main-nav li a').removeClass('activeMenu');
                 $('#main-nav li a').eq(i).addClass('activeMenu');
-            } 
-//            else {
-//                $('#main-nav li a').removeClass('activeMenu');
-//            }
+            }
         });
 
         $.each(['.fadeDown', '.fadeUp'], function (i) {
