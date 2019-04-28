@@ -93,7 +93,7 @@ $(document).ready(function () {
 
 
     $(".dropdown-li").on('click', function () {
-        $(".dropdown-content").css("display", "none");
+        $(".dropdown-content").css("display","none");
         console.log('dziala');
     });
 

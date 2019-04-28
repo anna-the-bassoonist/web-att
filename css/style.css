@@ -227,7 +227,7 @@
         display: none;
         visibility: hidden;
         opacity: 0;
-
+        cursor: pointer;
         position: absolute;
         margin: 0;
         padding: 0;
