@@ -212,9 +212,13 @@
         transition: color 0.2s ease-in;
     }
 
-    nav#main-nav div ul li.nav-item:hover,
+    /*    nav#main-nav div ul li.nav-item:hover,*/
     nav#main-nav div ul li a.activeMenu {
         background-color: var(--nav-ah-color);
+    }
+
+    nav#main-nav div ul li.nav-item:hover {
+        background-color: mediumvioletred;
     }
 
     nav#main-nav div ul li.dropdown-main {
@@ -252,7 +256,7 @@
     }
 
     nav#main-nav div li ul.dropdown-content a:hover {
-        background-color: var(--nav-ah-color);
+        background-color:mediumorchid;
     }
 
     nav#main-nav div ul li.dropdown-main:hover > ul.dropdown-content,
