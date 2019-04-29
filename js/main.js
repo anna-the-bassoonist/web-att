@@ -1,5 +1,28 @@
 'use strict';
 $(document).ready(function () {
+    if ((navigator.userAgent.match(/iPhone/i)) ||
+        (navigator.userAgent.match(/iPod/i)) ||
+        (navigator.userAgent.match(/iPad/i))) {
+        $("#main-nav li a").on("touchstart", function () {
+            $(this).addClass('hover');
+            console.log('touch started');
+        });
+        $("#main-nav li a").on("touchend", function () {
+            $(this).removeClass('hover');
+            console.log('touchend');
+        })
+    } else if ((!navigator.userAgent.match(/iPhone/i)) ||
+        (!navigator.userAgent.match(/iPod/i)) ||
+        (!navigator.userAgent.match(/iPad/i)))  {
+        $("#main-nav li a").on("mouseenter", function(){
+            $(this).addClass('hover');
+            console.log('on hover');
+        });
+        $("#main-nav li a").on("mouseleave", function(){
+            $(this).removeClass('hover');
+            console.log('hover ended');
+        })
+    }
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#main-nav').addClass('changeColor');
@@ -34,6 +57,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+
     $('a[href^="#"]').on('click', function (event) {
         var target = $($(this).attr('href'));
         if (target.length) {

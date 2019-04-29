@@ -217,7 +217,12 @@
         background-color: var(--nav-ah-color);
     }
 
+    /*
     nav#main-nav div ul li.nav-item:hover {
+        background-color: mediumvioletred;
+    }
+*/
+    nav#main-nav div ul li a.hover {
         background-color: mediumvioletred;
     }
 
@@ -256,7 +261,7 @@
     }
 
     nav#main-nav div li ul.dropdown-content a:hover {
-        background-color:mediumorchid;
+        background-color: mediumorchid;
     }
 
     nav#main-nav div ul li.dropdown-main:hover > ul.dropdown-content,
