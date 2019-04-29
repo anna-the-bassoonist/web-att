@@ -11,9 +11,7 @@ $(document).ready(function () {
             $(this).removeClass('hover');
             console.log('touchend');
         })
-    } else if ((!navigator.userAgent.match(/iPhone/i)) ||
-        (!navigator.userAgent.match(/iPod/i)) ||
-        (!navigator.userAgent.match(/iPad/i)))  {
+    } else {
         $("#main-nav li a").on("mouseenter", function(){
             $(this).addClass('hover');
             console.log('on hover');
