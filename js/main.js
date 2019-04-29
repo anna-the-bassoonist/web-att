@@ -11,16 +11,7 @@ $(document).ready(function () {
             $(this).removeClass('hover');
             console.log('touchend');
         })
-    } else {
-        $("#main-nav li a").on("mouseenter", function(){
-            $(this).addClass('hover');
-            console.log('on hover');
-        });
-        $("#main-nav li a").on("mouseleave", function(){
-            $(this).removeClass('hover');
-            console.log('hover ended');
-        })
-    }
+    } 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#main-nav').addClass('changeColor');
