@@ -1,17 +1,17 @@
 'use strict';
 $(document).ready(function () {
-    if ((navigator.userAgent.match(/iPhone/i)) ||
-        (navigator.userAgent.match(/iPod/i)) ||
-        (navigator.userAgent.match(/iPad/i))) {
-        $("#main-nav li a").on("touchstart", function () {
+//    if ((navigator.userAgent.match(/iPhone/i)) ||
+//        (navigator.userAgent.match(/iPod/i)) ||
+//        (navigator.userAgent.match(/iPad/i))) {
+        $("#main-nav li a").on("touchstart mouseover", function () {
             $(this).addClass('hover');
             console.log('touch started');
         });
-        $("#main-nav li a").on("touchend", function () {
+        $("#main-nav li a").on("touchend mouseleave", function () {
             $(this).removeClass('hover');
             console.log('touchend');
         })
-    } 
+//    } 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#main-nav').addClass('changeColor');
