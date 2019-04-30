@@ -1,17 +1,17 @@
 'use strict';
 $(document).ready(function () {
-//    if ((navigator.userAgent.match(/iPhone/i)) ||
-//        (navigator.userAgent.match(/iPod/i)) ||
-//        (navigator.userAgent.match(/iPad/i))) {
-        $("#main-nav li a").on("touchstart mouseover", function () {
+    if ((navigator.userAgent.match(/iPhone/i)) ||
+        (navigator.userAgent.match(/iPod/i)) ||
+        (navigator.userAgent.match(/iPad/i))) {
+        $("#main-nav li a").on("touchstart", function () {
             $(this).addClass('hover');
             console.log('touch started');
         });
-        $("#main-nav li a").on("touchend mouseleave", function () {
+        $("#main-nav li a").on("touchend", function () {
             $(this).removeClass('hover');
             console.log('touchend');
         })
-//    } 
+    } 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#main-nav').addClass('changeColor');
@@ -75,10 +75,16 @@ $(document).ready(function () {
     //        $(this).addClass('activeMenu');
     //    });
 
-    $(".dropdown-li").on('click', function () {
-        $(".dropdown-content").css("display", "none");
-        console.log('dziala');
-    });
+//    $(".dropdown-li").on('click touchstart', function () {
+//        $(".dropdown-content").css("display", "none");
+//        console.log('dziala');
+//    });
+    $(".dropdown-li").each(function(){
+        $(this).on("click touchstart touchend", function(){
+            $(".dropdown-content").css("display", "none");
+            console.log('zniklo');
+        })
+    })
 
     $(function () {
         var navMobile = $('.mobileHide');
