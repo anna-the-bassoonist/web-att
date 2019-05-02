@@ -80,7 +80,7 @@ $(document).ready(function () {
 //        console.log('dziala');
 //    });
     $(".dropdown-li").each(function(){
-        $(this).on("click touchstart touchend", function(){
+        $(this).on("touchend", function(){
             $(".dropdown-content").css("display", "none");
             console.log('zniklo');
         })
@@ -92,6 +92,13 @@ $(document).ready(function () {
             navMobile.collapse('hide');
         });
     });
+//    $(function () {
+//        var lngMobile = $('.dropdown-main');
+//        $(lngMobile).on('touchstart', function(){
+//            $('.dropdown-menu').collapse('show');
+//            console.log('mobile dziala');
+//        });
+//    });
 
     if (/iP(hone|od|ad)/.test(navigator.platform)) {
         $("*").css({
